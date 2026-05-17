@@ -3,8 +3,7 @@ Experiment no.1
 
 Title:- Create a simple HTML page displaying personal details using text formatting tags.
 
-
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
 <title>PersonalDetails</title>
