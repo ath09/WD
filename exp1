@@ -11,11 +11,11 @@ Title:- Create a simple HTML page displaying personal details using text formatt
 </head>
 <body>
 <h1>PersonalDetails</h1>
-<p><b>Name:</b>Atharv Sanjay Yadav</p>
+<p><b>Name:</b>Rohit man Sharma</p>
 <p><i>Department:</i>ComputerEngineering</p>
 <p><u>College:</u>SPCOET</p>
-<p><strong>Email:</strong>ath2016yadav@gmail.com</p>
-<p><em>ContactNo:</em>9307601648</p>
+<p><strong>Email:</strong>your2026@gmail.com</p>
+<p><em>ContactNo:</em>987654321</p>
 </body>
 </html>
 
