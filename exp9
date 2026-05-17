@@ -1,0 +1,17 @@
+Tittle:- To design a simple PHP web page that displays a welcome message along with the current date and time.
+
+Program-   
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Welcome Page</title> 
+</head> 
+<body> 
+<h1>Welcome</h1> 
+<?php 
+date_default_timezone_set("Asia/Kolkata"); 
+echo "Current Date: " . date("d-m-Y") . "<br>"; 
+echo "Current Time: " . date("h:i:s A"); 
+?> 
+</body> 
+</html>
