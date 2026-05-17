@@ -1,0 +1,19 @@
+Tittle:- To implement a PHP program that performs string manipulation operations such as finding length, reversing a string, and extracting a substring.
+
+Program-   
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>PHP String Manipulation</title> 
+</head> 
+<body> 
+<h1>String Manipulation in PHP</h1> 
+<?php 
+$string = "Computer Engineering"; 
+echo "Original String: " . $string . "<br><br>"; 
+echo "Length of String: " . strlen($string) . "<br>"; 
+echo "Reversed String: " . strrev($string) . "<br>"; 
+echo "Substring (0 to 8): " . substr($string, 0, 8); 
+?> 
+</body>
+</html>
