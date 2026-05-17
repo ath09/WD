@@ -1,0 +1,63 @@
+Tittle:- To design a web page and apply inline CSS, internal CSS, and external CSS to style headings and tables.
+Program-   
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>CSS Types Practical</title> 
+<!-- External CSS Link --> 
+<link rel="stylesheet" href="style.css"> 
+<!-- Internal CSS --> 
+<style> 
+th { 
+background-color: lightgray; 
+padding: 10px; 
+} 
+td { 
+text-align: center; 
+padding: 8px; 
+} 
+table, th, td { 
+border: 1px solid black; 
+} 
+</style> 
+</head> 
+<body> 
+<!-- Inline CSS --> 
+<h1 style="color: green; text-align: center;"> 
+Student Details 
+</h1> 
+<!-- External CSS --> 
+<h2>Department Information</h2> 
+<table> 
+<tr> 
+<th>Roll No</th> 
+<th>Name</th> 
+<th>Course</th> 
+</tr> 
+<tr> 
+<td>1</td> 
+<td>Pooja</td> 
+<td>BSc CS</td> 
+</tr> 
+<tr> 
+<td>2</td> 
+<td>Rahul</td> 
+<td>BSc IT</td> 
+</tr> 
+</table> 
+</body> 
+</html>
+
+External CSS File (style.css) 
+/* External CSS */ 
+h2 { 
+color: blue; 
+text-align: center; 
+font-family: Arial; 
+} 
+table { 
+width: 60%; 
+margin: auto; 
+border-collapse: collapse 
+}
