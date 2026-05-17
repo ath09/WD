@@ -1,0 +1,21 @@
+Experiment no.1	 
+
+
+Title:- Create a simple HTML page displaying personal details using text formatting tags.
+
+
+<!DOCTYPE>
+<html>
+<head>
+<title>PersonalDetails</title>
+</head>
+<body>
+<h1>PersonalDetails</h1>
+<p><b>Name:</b>Atharv Sanjay Yadav</p>
+<p><i>Department:</i>ComputerEngineering</p>
+<p><u>College:</u>SPCOET</p>
+<p><strong>Email:</strong>ath2016yadav@gmail.com</p>
+<p><em>ContactNo:</em>9307601648</p>
+</body>
+</html>
+
